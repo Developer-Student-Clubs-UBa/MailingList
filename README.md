@@ -66,15 +66,15 @@ This section should outline what is required to install and configure this proje
 
 We appreciate feedback and contribution to this repo! Before you get started, please see the following:
 
-- [General contribution guidelines](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/GENERAL-CONTRIBUTING.md)
-- [Code of conduct guidelines](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/CODE-OF-CONDUCT.md)
-- [Contribution guide](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/CONTRIBUTING.md)
+- [General contribution guidelines](https://github.com/Developer-Student-Clubs-UBa/MailingList/blob/main/CONTRIBUTING.md)
+- [Code of conduct guidelines](https://github.com/Developer-Student-Clubs-UBa/MailingList/blob/main/CODE-OF-CONDUCT.md)
+- [Contribution guide](https://github.com/Developer-Student-Clubs-UBa/MailingList/blob/main/CONTRIBUTING.md)
 
 ## Support + Feedback
 
 Include information on how to get support. Consider adding:
 
-- Use [Issues](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/issues) for code-level support
+- Use [Issues](https://github.com/Developer-Student-Clubs-UBa/MailingList/issues) for code-level support
 - Use [Community](https://gdsc.community.dev/university-of-bamenda/) for usage, questions, specific cases
 
 ## Vulnerability Reporting
