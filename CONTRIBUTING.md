@@ -14,13 +14,13 @@ Reading and following these guidelines will help us make the contribution proces
 
 ## Code of Conduct
 
-We take our open source community seriously and hold ourselves and other contributors to high standards of communication. By participating and contributing to this project, you agree to uphold our [Code of Conduct](https://github.com/Developer-Student-Clubs-UBa/hostel-management-sys-sb/blob/master/CODE-OF-CONDUCT.md).
+We take our open source community seriously and hold ourselves and other contributors to high standards of communication. By participating and contributing to this project, you agree to uphold our [Code of Conduct](https://github.com/Developer-Student-Clubs-UBa/MailingList/blob/main/CONTRIBUTING.md).
 
 ## Getting Started
 
 Contributions are made to this repo via Issues and Pull Requests (PRs). A few general guidelines that cover both:
 
-- To report security vulnerabilities, please link up [Elroy Kanye](https://github.com/elroykanye), the repo maintainer.
+- To report security vulnerabilities, please link up [Alouzeh Brandone](https://github.com/bernandez), the repo maintainer.
 - Search for existing Issues and PRs before creating your own to avoid duplicate issue concerns.
 - We work hard to makes sure issues are handled in a timely manner but, depending on the impact, it could take a while to investigate the root cause. A friendly ping in the comment thread to the submitter or a contributor can help draw attention if your issue is blocking.
 - If you've never contributed before, see [the first timer's guide on Auth0's blog](https://auth0.com/blog/a-first-timers-guide-to-an-open-source-project/) for resources and tips on how to get started.
