@@ -10,7 +10,7 @@ def mailing_list():
     choices()
 
 
-    return mailing_list()
+    #return mailing_list()
 
 
 def createmail():
@@ -20,7 +20,7 @@ def createmail():
     email = input("enter email: ")
     mode = "a"
     file = "mailList.txt"
-    file = open(file, mode)
+    file = open(file, w) #since we are creating mail, mode should be write.
     file.write(f'{name}:{email}\n')
     file.close()
     print('Mail created')
@@ -34,17 +34,28 @@ def searchmail():
     choice = input('enter name to search a mail by name or email to search by email: ')
 
     if choice == 'name':
-        name = input("please enter name to search mail by list: ")
-        if name in data.keys():
-               print(f' {name.capitalize()} :: {data[name]}')
+        a_name = input("please enter name to search mail by list: ")
+        if a_name in data.values():
+            for name in data.keys():
+                if name == a_name:
+                    print("=====================================")
+                    print("                Results              ")
+                    print("=====================================")
+                    print(f' {name.capitalize()} :: {data[name]}')
+        else:
+            print("========================")
+            print("Name Not found")
+            print("========================")
 
     elif choice == 'email':
         email = input('please enter email search mail by email: ')
         if email in data.values():
-          for keys, values in data.items():
-              if values == email:
-                  na = keys
-        print(f' {na.capitalize()} :: {data[na]}')
+          for keys, value in data.items():
+              if value == email:
+                  u_name = keys
+                  print(f' {u_name.capitalize()} :: {data[u_name]}')
+        else:
+            print("Email Not Found!")
     choices()
 
 
@@ -77,10 +88,15 @@ def choices():
         createmail()
     elif choice == '2':
         searchmail()
+    elif choice == '3':
+        print("All Mails")
+        print("============")
+        mailing_list()
     elif choice == '0':
         quit()
     else:
         print('unknown application')
         quit()
 
-mailing_list()
+#mailing_list()
+choices()
