@@ -1,7 +1,6 @@
-# Hostel Management System
+# Mailing List
 
-This is a management system for hostels done using Spring boot and thymeleaf. 
-The system stores hostel information such as rooms, residents, prices. It is meant to act as an REST Service for crud operations regarding one or more hostels.
+This is a prototype of mailing list, a list of the names and addresses of people to whom advertising matter, information, or other material may be mailed regularly.
 
   - Built using Python.
   - This repo is currently maintained by the GDSC-UBa Core Team
@@ -10,7 +9,7 @@ The system stores hostel information such as rooms, residents, prices. It is mea
 Search-replace the org/repo in the badge images and links below.
 
 
-**Note:** See individual language directories in this repo for technology-specific badges. 
+**Note:** See individual language directories in this repo for technology-specific badges.
 
 [![CircleCI](https://img.shields.io/circleci/project/github/auth0/open-source-template.svg?style=flat-square)](https://circleci.com/gh/auth0/open-source-template/tree/master)
 [![TravisCI](https://travis-ci.org/auth0/open-source-template.png)](https://travis-ci.org/auth0/open-source-template)
@@ -49,15 +48,17 @@ Consider adding:
 
 
 ## Installation
-
-This section should outline what is required to install and configure this project. Consider adding:
+  - Fork this repo to your account,
+  - clone it to your local pc using <h5>git clone #link </h5>
+  - To test, upon cloned repo in terminal and tryp <h5> python3 main.py </h5>
 
 ### Prerequisites for use
 - pip 3
 - latest version of python
 
 ### Run Local
-
+- <h5>python3 main.py</h5> for python3
+- <h5>python main.py</h5> for python2
 
 ## Getting Started
 
@@ -78,7 +79,7 @@ Include information on how to get support. Consider adding:
 
 ## Vulnerability Reporting
 
-Please do not report security vulnerabilities on the public GitHub issue tracker. 
+Please do not report security vulnerabilities on the public GitHub issue tracker.
 
 ## License
 
