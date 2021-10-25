@@ -50,12 +50,11 @@ Consider adding:
 ## Installation
   - Fork this repo to your account,
   - clone it to your local pc using <h5>git clone #link </h5>
-  - To test, upon cloned repo in terminal and tryp <h5> python3 main.py </h5>
+  - To test, upon cloned repo in terminal and try<h5> python3 main.py </h5>
 
 ### Prerequisites for use
 - pip 3
 - latest version of python
-
 ### Run Local
 - <h5>python3 main.py</h5> for python3
 - <h5>python main.py</h5> for python2
