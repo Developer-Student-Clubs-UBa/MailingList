@@ -18,12 +18,15 @@ def createmail():
     print("CREATE NEW MAIL")
     name = input("enter name: ")
     email = input("enter email: ")
-    mode = "a"
+    #mode = "a"
     file = "mailList.txt"
-    file = open(file, w) #since we are creating mail, mode should be write.
-    file.write(f'{name}:{email}\n')
-    file.close()
-    print('Mail created')
+    file = open(file, 'a')
+    if(file.write(f'{name}:{email}\n')):
+        file.close()
+        print('Mail created')
+    else:
+        print("An Error Occured")
+    mailing_list()
     choices()
 
 
